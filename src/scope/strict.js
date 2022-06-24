@@ -7,7 +7,7 @@ console.log(pi);
 // console.log(pi);
 
 'use strict';
-pi = 3.1416; // error. pi is not defined
+pi = 3.1416; // ReferenceError: pi is not defined
 console.log(pi);
 
 function myFunction() {
